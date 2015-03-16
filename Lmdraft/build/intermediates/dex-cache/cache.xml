@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/archie/AndroidStudioProjects/Lmdraft/app/libs/recyclerview-v7-21.0.3-sources.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7e79ebdf2b2faa6f9a1b718f2ee8f0cd712ba9ab">
+        <dex dex="/home/archie/AndroidStudioProjects/Lmdraft/app/build/intermediates/pre-dexed/debug/recyclerview-v7-21.0.3-sources-4d86d2c394ef532b798021edd517cf2deac99a18.jar" />
+    </item>
+    <item
+        jar="/home/archie/AndroidStudioProjects/Lmdraft/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/home/archie/AndroidStudioProjects/Lmdraft/app/build/intermediates/pre-dexed/debug/classes-1194702bba15283594567b3ac8b6b867936d71a4.jar" />
+    </item>
+    <item
+        jar="/home/archie/AndroidStudioProjects/Lmdraft/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
+        <dex dex="/home/archie/AndroidStudioProjects/Lmdraft/app/build/intermediates/pre-dexed/debug/classes-1b3fa81ef429f62e54a5bf5ac4d92f23691df393.jar" />
+    </item>
+    <item
+        jar="/home/archie/AndroidStudioProjects/Lmdraft/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/home/archie/AndroidStudioProjects/Lmdraft/app/build/intermediates/pre-dexed/debug/classes-9396cd02a79b7a5a02d4c9c104affcccb94a4644.jar" />
+    </item>
+    <item
+        jar="/home/archie/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/home/archie/AndroidStudioProjects/Lmdraft/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-7d0eae4d166d7cfe3d682cf0257468b4e3449280.jar" />
+    </item>
+    <item
+        jar="/home/archie/AndroidStudioProjects/Lmdraft/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/home/archie/AndroidStudioProjects/Lmdraft/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-0c8d2ef46896bc8507a16385cb85d6a579f48d6e.jar" />
+    </item>
+
+</items>
