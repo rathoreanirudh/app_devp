@@ -50,7 +50,7 @@ public class MainActivity extends ActionBarActivity {
                 final EditText iamt = (EditText) promptView.findViewById(R.id.pamt);
 
                 //setting up dialog window
-                alertDialogBuilder.setCancelable(false).setPositiveButton("Ok" , new DialogInterface.OnClickListener() {
+                alertDialogBuilder.setCancelable(false).setPositiveButton("Save" , new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         madapter.add(madapter.getItemCount(),iname.getText().toString(), Integer.parseInt(iamt.getText().toString()));
