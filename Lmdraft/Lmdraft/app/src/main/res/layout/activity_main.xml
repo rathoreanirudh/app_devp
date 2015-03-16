@@ -1,0 +1,43 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#009688"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--Adding Recylcer view -->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/my_recycler_view"
+        android:layout_height="match_parent"
+        android:background="#009688"
+        android:layout_width="match_parent"
+        />
+<!--<ImageView
+        android:scaleType="fitCenter"
+        android:id="@+id/bAdd"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginEnd="7dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:elevation="2dp"
+        android:clickable="true"
+        android:src="@drawable/ic_add_circle"
+        android:contentDescription="addbutton" />-->
+    <Button
+        android:scaleType="fitCenter"
+        android:id="@+id/bAdd"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginEnd="7dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:background="@drawable/button_image"/>
+</RelativeLayout>
