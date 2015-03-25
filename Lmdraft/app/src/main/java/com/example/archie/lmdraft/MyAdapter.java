@@ -13,14 +13,19 @@ import java.util.ArrayList;
 class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
 
     private ArrayList<String> people;
-    private ArrayList<Integer> lamount;
+    private ArrayList<Double> lamount;
+
+    // Providing a suitable constructor (depends on the kind of dataset)
     //constructor that takes in the array lists and initalizes them to people and lamount array list respectivelly
-    public MyAdapter(ArrayList<String> people, ArrayList<Integer> lamount) {
+    public MyAdapter(ArrayList<String> people, ArrayList<Double> lamount) {
         this.people = people;
         this.lamount = lamount;
     }
 
 
+    // Provide a reference to the views for each data item
+    // Complex data items may need more than one view per item, and
+    // you provide access to all the views for a data item in a view holder
     public class ViewHolder extends RecyclerView.ViewHolder{
         public TextView pName;
         public TextView lAmt;
@@ -33,33 +38,40 @@ class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
     }
 
     //adding a new entry to the array list
-    public void add(int position,String name,int amount){
+    public void add(int position,String name,double amount){
         people.add(position,name);
         lamount.add(position,amount);
         notifyItemInserted(position);
     }
 
     //removing an entry from the list
-    public void remove(String name){
-        int position=people.indexOf(name);
+    public void remove(int position){
+        //int position=people.indexOf(name);
         people.remove(position);
         lamount.remove(position);
         notifyItemRemoved(position);
     }
 
+    //create new view invoked by a layout manager
     public MyAdapter.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType){
+        // create a new view
         View v= LayoutInflater.from(parent.getContext()).inflate(R.layout.rowlayout,parent,false);
         ViewHolder vh=new ViewHolder(v);
         return vh;
     }
 
+    // Replace the contents of a view (invoked by the layout manager)
     public void onBindViewHolder(ViewHolder holder,int position){
-        final String pname= people.get(position);
-        final int pamt = lamount.get(position);
+        //final String pname= people.get(position);
+        //final int pamt = lamount.get(position);
+
+        // - get element from your dataset at this position
+        // - replace the contents of the view with that element
         holder.pName.setText(people.get(position));
         holder.lAmt.setText("$ "+lamount.get(position).toString());
     }
 
+    // Return the size of your dataset (invoked by the layout manager)
     //return the number of items in the list
     public int getItemCount(){
         return people.size();
